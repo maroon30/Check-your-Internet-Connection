@@ -1,0 +1,70 @@
+/* 
+  @author Suhana 
+  Project name == Dictioinary App
+  
+  Cleaning code == Done
+  Organizing code == Done
+  Property and value arrangement == Done
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+.container {
+    font-family: "Poppins", sans-serif;
+    left: 50%;
+    position: absolute;
+    width: 320px;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+    -webkit-animation: scale-up 2s infinite;
+            animation: scale-up 2s infinite;
+}
+@-webkit-keyframes scale-up {
+    50% {
+        -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    }
+}
+
+@keyframes scale-up {
+    50% {
+        -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    }
+}
+
+#message {
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 30px auto 50px auto;
+    padding: 30px 10px;
+    width: 90%;
+}
+
+a {
+    background-color: #101010;
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0;
+    text-decoration: none;
+}
